@@ -4,7 +4,7 @@ with open("README.rst") as f:
     readme = f.read()
 
 with open("LICENSE") as f:
-    license_file = f.read()
+    license_file = f.read() // participating in hacktoberfest
 
 setup(
     name="vsketch",
